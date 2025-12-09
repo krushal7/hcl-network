@@ -5,11 +5,6 @@ variable "public_ips" {
   default = [
     "8.8.8.8",
     "1.1.1.1",
-    "9.9.9.9",
   ]
 }
-variable "environment" {
-  description = "Environment label for this network workspace"
-  type        = string
-  default     = "dev"
-}
+
