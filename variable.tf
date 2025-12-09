@@ -8,3 +8,8 @@ variable "public_ips" {
     "9.9.9.9",
   ]
 }
+variable "environment" {
+  description = "Environment label for this network workspace"
+  type        = string
+  default     = "dev"
+}
