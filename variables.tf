@@ -9,3 +9,7 @@ variable "public_ips" {
   ]
 }
 
+variable "force_trigger" {
+  type    = string
+  default = "v1"
+}
