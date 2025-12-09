@@ -5,11 +5,6 @@ variable "public_ips" {
   default = [
     "8.8.8.8",
     "1.1.1.1",
-    "1.9.9.9",
+    "1.9.9.8",
   ]
-}
-
-variable "force_trigger" {
-  type    = string
-  default = "v1"
 }
