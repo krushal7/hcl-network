@@ -5,5 +5,6 @@ variable "public_ips" {
   default = [
     "8.8.8.8",
     "1.1.1.1",
+    "2.2.2.2",
   ]
 }
